@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/commons.iml" filepath="$PROJECT_DIR$/commons/commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/directexchange/directexchange.iml" filepath="$PROJECT_DIR$/directexchange/directexchange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dubbo-redis-es-mq.iml" filepath="$PROJECT_DIR$/.idea/dubbo-redis-es-mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elasticSearch/elasticSearch.iml" filepath="$PROJECT_DIR$/elasticSearch/elasticSearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elasticsearchtest/elasticsearchtest.iml" filepath="$PROJECT_DIR$/elasticsearchtest/elasticsearchtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fanoutexchange/fanoutexchange.iml" filepath="$PROJECT_DIR$/fanoutexchange/fanoutexchange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listShow/listShow.iml" filepath="$PROJECT_DIR$/listShow/listShow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mapper/mapper.iml" filepath="$PROJECT_DIR$/mapper/mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/passport/passport.iml" filepath="$PROJECT_DIR$/passport/passport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pojo/pojo.iml" filepath="$PROJECT_DIR$/pojo/pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/productadd/productadd.iml" filepath="$PROJECT_DIR$/productadd/productadd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider/provider.iml" filepath="$PROJECT_DIR$/provider/provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq_receiver/rabbitmq_receiver.iml" filepath="$PROJECT_DIR$/rabbitmq_receiver/rabbitmq_receiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq_sender/rabbitmq_sender.iml" filepath="$PROJECT_DIR$/rabbitmq_sender/rabbitmq_sender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redistest/redistest.iml" filepath="$PROJECT_DIR$/redistest/redistest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/topicexchange/topicexchange.iml" filepath="$PROJECT_DIR$/topicexchange/topicexchange.iml" />
+    </modules>
+  </component>
+</project>

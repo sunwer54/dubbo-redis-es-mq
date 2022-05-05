@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="productadd:war">
+    <output-path>$PROJECT_DIR$/productadd/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>productadd</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="productadd-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="productadd:war exploded" />
+    </root>
+  </artifact>
+</component>

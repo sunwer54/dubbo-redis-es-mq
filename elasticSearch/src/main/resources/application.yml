@@ -1,0 +1,15 @@
+#配置连接elasticsearch索引库
+spring:
+  elasticsearch:
+    rest:
+      uris: http://192.168.175.129:9200,http://192.168.175.130:9200
+    #或者用以下写法也可以
+    #      - 192.168.175.129:9200
+    #      - 192.168.175.130:9200
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/ #配置前缀
+      suffix: .jsp #配置后缀
+#给当前的tomcat服务器配置一个端口
+server:
+  port: 9094

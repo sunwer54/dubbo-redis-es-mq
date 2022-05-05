@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pojo" />
+        <module name="elasticSearch" />
+        <module name="directexchange" />
+        <module name="redis" />
+        <module name="elasticsearchtest" />
+        <module name="passport" />
+        <module name="topicexchange" />
+        <module name="productadd" />
+        <module name="provider" />
+        <module name="rabbitmq_sender" />
+        <module name="fanoutexchange" />
+        <module name="listShow" />
+        <module name="commons" />
+        <module name="mapper" />
+        <module name="redistest" />
+        <module name="rabbitmq_receiver" />
+        <module name="api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api" options="-parameters" />
+      <module name="commons" options="-parameters" />
+      <module name="directexchange" options="-parameters" />
+      <module name="elasticSearch" options="-parameters" />
+      <module name="elasticsearchtest" options="-parameters" />
+      <module name="fanoutexchange" options="-parameters" />
+      <module name="listShow" options="-parameters" />
+      <module name="mapper" options="-parameters" />
+      <module name="passport" options="-parameters" />
+      <module name="pojo" options="-parameters" />
+      <module name="productadd" options="-parameters" />
+      <module name="provider" options="-parameters" />
+      <module name="rabbitmq_receiver" options="-parameters" />
+      <module name="rabbitmq_sender" options="-parameters" />
+      <module name="redis" options="-parameters" />
+      <module name="redistest" options="-parameters" />
+      <module name="topicexchange" options="-parameters" />
+    </option>
+  </component>
+</project>

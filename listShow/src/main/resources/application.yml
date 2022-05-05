@@ -1,0 +1,22 @@
+#配置视图解析器
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/ #配置前缀
+      suffix: .jsp #配置后缀
+  #动态关联redis模块中的配置文件application-redis.yml，当springboot加载这个配置文件时，同时加载redis模块中的application-redis.yml
+  profiles:
+    active: redis  #注意redis模块中的配置文件名必须是application-redis.yml
+#配置zookeeper注册中心
+dubbo:
+  application:
+    name: listShow #为当前这个服务设置一个名字，该名字会在zookeeper注册中心里面暴露
+  registry: #配置要注册到zookeeper服务中心的地址
+    #address: zookeeper://192.168.233.128:2181?backup=192.168.233.128:2182,192.168.233.128:2183 #zookeeper集群版zookeeper注册中心
+    address: zookeeper://192.168.175.129:2181 #zookeeper单机版zookeeper注册中心
+  protocol: #采用的远程服务协议
+    name: dubbo #远程服务协议的名称
+    port: 20882 #远程服务协议的端口，默认是20880
+#为当前的tomcat服务器设置一个端口（不设置则默认端口是8080）
+server:
+  port: 9093

@@ -1,0 +1,17 @@
+#配置zookeeper注册中心
+dubbo:
+  application:
+    name: provider #给当前要注册到zookeeper中的这个微服务取一个名字，这个名字会在zookeeper里暴露
+  registry: #注册：表示将本服务注册到address所在的地址
+    #address: zookeeper://192.168.233.128:2181?backup=192.168.233.128:2182,192.168.233.128:2183 #zookeeper集群版zookeeper注册中心
+    address: zookeeper://192.168.175.129:2181 #zookeeper单机版zookeeper注册中心
+  protocol: #采用的远程服务协议
+    name: dubbo #远程服务协议的名称
+    port: 20880 #远程服务协议的端口，默认是20880
+#动态关联mapper模块中的配置文件application-mapper.yml，当springboot加载这个配置文件时，同时加载mapper模块中的application-mapper.yml
+spring:
+  profiles:
+    active: mapper  #注意mapper模块中的配置文件名必须是application-mapper.yml
+#为当前的tomcat服务器设置一个端口（不设置则默认端口是8080）
+server:
+  port: 9090

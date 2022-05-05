@@ -1,0 +1,7 @@
+#配置连接rabbitmq消息队列的参数
+spring:
+  rabbitmq:
+    host: 192.168.175.129 #rabbit所在的主机ip
+    username: admin #访问用户名
+    password: admin #访问密码
+    port: 5672 #访问端口

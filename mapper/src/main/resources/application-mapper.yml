@@ -1,0 +1,9 @@
+#配置连接数据库的相关参数
+spring:
+  datasource:
+    type: org.springframework.jdbc.datasource.DriverManagerDataSource #spring自带的数据库连接池
+    driver-class-name: com.mysql.jdbc.Driver #jdbc连接的驱动
+    #访问数据的url
+    url: jdbc:mysql://192.168.175.129:3306/user?serverTimezone=UTC&characterEncoding=utf-8
+    username: root #数据库登录用户名
+    password: root #数据库登录密码

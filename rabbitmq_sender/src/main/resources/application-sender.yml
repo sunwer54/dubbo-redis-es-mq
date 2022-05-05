@@ -1,0 +1,7 @@
+#配置连接rabbitmq服务器的参数
+spring:
+  rabbitmq:
+    host: 192.168.175.129
+    username: admin
+    password: admin
+    port: 5672

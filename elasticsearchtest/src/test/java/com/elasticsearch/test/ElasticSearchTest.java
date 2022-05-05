@@ -27,6 +27,7 @@ import java.util.List;
 @SpringBootTest(classes = {ElasticSearchApp.class})
 @RunWith(SpringRunner.class)
 public class ElasticSearchTest {
+
     @Autowired//注入Java中用来操作es的ElasticsearchRestTemplate类，子类中封装了用来操作es的方法
     private ElasticsearchRestTemplate esrt;
     /*

@@ -22,11 +22,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+
 //这个注解是基于springboot测试，需要依赖springboot启动类
 @SpringBootTest(classes = {ElasticSearchApp.class})
 @RunWith(SpringRunner.class)
 public class ElasticSearchTest {
-
     @Autowired//注入Java中用来操作es的ElasticsearchRestTemplate类，子类中封装了用来操作es的方法
     private ElasticsearchRestTemplate esrt;
     /*
